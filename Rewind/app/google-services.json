@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "968274825373",
+    "firebase_url": "https://rewind-45717.firebaseio.com",
+    "project_id": "rewind-45717",
+    "storage_bucket": "rewind-45717.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968274825373:android:445aaf7c08cc0c7a",
+        "android_client_info": {
+          "package_name": "com.fasttech.rewind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968274825373-0i57lrd4r8mbtcuklk5hl3f443s0f5co.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fasttech.rewind",
+            "certificate_hash": "bee6cb805932dbc06867e9210983a1f766dc6829"
+          }
+        },
+        {
+          "client_id": "968274825373-8fvaup7adal3dh70suhbb056fb5p6ic4.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "968274825373-8fvaup7adal3dh70suhbb056fb5p6ic4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmqTDDsLHqx9sSc8RqgGTPBVPrqxVx_1o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968274825373-8fvaup7adal3dh70suhbb056fb5p6ic4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

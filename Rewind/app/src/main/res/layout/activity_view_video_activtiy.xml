@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fasttech.rewind.ViewVideoActivtiy"
+    android:background="@color/btnVerify">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/videoView"
+        android:background="@color/btnResend"
+        android:weightSum="6">
+        
+        <ImageView
+            android:id="@+id/playButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_play_arrow_black_24dp"/>
+        <TextView
+            android:id="@+id/currentTimer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:text="0:00"
+            android:layout_gravity="center"/>
+        <ProgressBar
+            android:id="@+id/currentProgress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_weight="3"
+            android:indeterminate="false"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:maxHeight="10dp"
+            android:minHeight="10dp"
+            android:progressDrawable="@drawable/greenprogress"/>
+        <TextView
+            android:id="@+id/durationTimer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0:00"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
